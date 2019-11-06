@@ -1,0 +1,44 @@
+
+[
+{
+    "id": 1,
+    "name": "Mark",
+    "lasName":"Eddy",
+    "age":"42",
+    "worksAtcompany": "12 years",
+    "title" : "Front-end dev"
+},
+{
+    "id": 2,
+    "name": "Tom",
+    "lasName":"Fish",
+    "age":"22",
+    "worksAtcompany": "5 years",
+    "title":"Front-end dev"
+},
+{
+    "id": 3,
+    "name": "Jon",
+    "lasName":"Hammend",
+    "age":"22",
+    "worksAtcompany": "5 years",
+    "title":"Designer"
+},
+{    
+    "id": 4,
+    "name": "Thore",
+    "lasName":"Berg",
+    "age":"55",
+    "worksAtcompany": "2 years",
+    
+    "title":"Back-end dev"
+},
+{
+    "id": 5,
+    "name": "Glen",
+    "lasName":"Geek",
+    "age": "32",
+    "worksAtcompany": "8 years",
+    "title":"Back-end dev"
+}
+]

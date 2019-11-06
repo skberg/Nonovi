@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+body {
+  background-color: #7777;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: absolute;
+  width: 600px;
+  border-radius: 10px 10px 0px 0px;
+  z-index: 1;
+  font-family: 'Montserrat';
+}
+
+.topnav #mylinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: #121242b0;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #121242b0;
+  color: white;
+}
+
+.active {
+  background-color: #121242b0;
+  color: black;
+  padding: 22px;
+}
+
+#ButtonArrow {
+  position: relative;
+  left: 690px;
+  top: 269px;
+  right: 0;
+  font-size: 25px;
+  color: orangered;
+  animation: bounce 1s infinite alternate;
+  -webkit-animation: bounce 1s infinite alternate;
+}
+
+.ButtonOnorOF {
+  margin: auto;
+  text-align: center;
+  position: relative;
+  left: 640px;
+  top: 259px;
+  height: 55px;
+  background-color: black;
+  border: black;
+  width: 20px;
+  border-radius: 2px 2px;
+}
+
+.Display {
+  background-color: #f1f1f1;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.holderframe {
+  max-width: 600px;
+  margin: auto;
+}
+
+.fram {
+  background-color: black;
+  border: 25px solid black;
+  width: 600px;
+  height: 1000px;
+  border-radius: 25px;
+  margin: 5px auto;
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.479);
+          box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.479);
+}
+
+.conteiner {
+  padding: 25px;
+}
+
+.conteiner__Heding {
+  -webkit-text-decoration: underline 5px  #121242b0;
+          text-decoration: underline 5px  #121242b0;
+  font-family: 'Montserrat';
+  font-weight: 1000;
+  padding: 25px;
+}
+
+.conteiner__cardHolder-card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.conteiner__cardHolder-card #card__fas {
+  color: #121242b0;
+  font-size: 54px;
+  margin: 25px auto;
+  padding: 50px;
+  background-color: #FDFDFD;
+  border-radius: 20px;
+}
+
+.conteiner__cardHolder__text {
+  height: 200%;
+  z-index: 1;
+  margin: 20px;
+  margin-left: -25px;
+  margin-right: -25px;
+  padding: 25px;
+  background-color: #121242b0;
+  font-family: 'Nunito';
+  color: #d6d5d5;
+}
+
+.conteiner__cardHolder .holderInput {
+  background-color: #d6d5d5;
+  margin-top: -21px;
+  height: 205px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.conteiner__cardHolder .holderInput__heding {
+  padding: 15px;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+}
+
+.conteiner__cardHolder__input {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 15px;
+  width: 55%;
+  position: relative;
+  top: 0px;
+  left: 120px;
+  right: 100px;
+}
+
+.conteiner__cardHolder .item {
+  height: 25px;
+  padding: 5px;
+  color: white;
+  border: none;
+  background-color: #121242b0;
+  border-radius: 5px;
+}
+
+.line {
+  height: 5px;
+  position: relative;
+  background-color: #a3a1a1;
+  top: 243px;
+  width: 25%;
+  border-radius: 10px;
+  margin: 5px auto;
+}
+
+@keyframes bounce {
+  from {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  to {
+    -webkit-transform: translateX(-15px);
+            transform: translateX(-15px);
+  }
+}
+
+@-webkit-keyframes bounce {
+  from {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  to {
+    -webkit-transform: translateX(-15px);
+            transform: translateX(-15px);
+  }
+}
+/*# sourceMappingURL=About.css.map */

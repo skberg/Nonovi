@@ -1,0 +1,222 @@
+$maincolor:#121242b0;
+
+
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+
+
+body{
+    background-color: #7777;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: absolute;
+    width: 600px;
+    border-radius: 10px 10px 0px 0px;
+    z-index: 1;
+    font-family: 'Montserrat';
+  }
+  
+  .topnav #mylinks {
+    display: none;
+  
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px ;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+  
+  }
+  
+  .topnav a.icon {
+    background: #121242b0;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+  }
+  
+  .topnav a:hover {
+    background-color: #121242b0;
+    color: white;
+  }
+  
+  .active {
+    background-color: $maincolor;
+    color: black;
+    padding: 22px;
+
+  }
+
+
+#ButtonArrow{
+  position: relative;
+  left: 690px;
+  top: 269px;
+  right: 0;
+  font-size: 25px;
+  color: orangered;
+ 
+  animation: bounce 1s infinite alternate;
+  -webkit-animation: bounce 1s infinite alternate;
+  
+}
+
+.ButtonOnorOF{
+  margin: auto;
+  text-align: center;
+  position: relative;
+  left: 640px;
+  top: 259px;
+
+  height: 55px;
+  background-color: black;
+  border: black;
+  width: 20px;
+  border-radius: 3px 3px;
+}
+
+
+
+.holderframe{
+  max-width: 600px;
+  margin: auto;
+}
+
+.fram{
+    background-color: black;
+    border: 25px solid black;
+   
+    width: 600px;
+    height: 1000px;
+    border-radius: 25px;
+    margin: 5px auto;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.479);
+    overflow: auto;
+}
+
+
+.Display{
+  background-color: #f1f1f1; 
+  height: 100%;
+  border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.conteiner{
+    padding: 25px;
+border-radius: 10px;
+
+    &__Heding{
+     
+        text-decoration: underline 5px#121242b0;
+        font-family: 'Montserrat';
+        font-weight: 1000;
+        margin-top: 100px;
+        margin-bottom: -120px;
+        margin-bottom: -120px;
+       
+    }
+
+&__cardHolder{
+   
+
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 150px;
+  
+    margin: 25px auto;
+    &-card{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 25px;
+        background-color: #d6d5d5;
+        margin: 15px auto;
+        padding: 25px;
+        border-radius: 10px;
+       
+        input{
+            border: none;
+            border-radius: 2px;
+            padding: 9px;
+        }
+        .Bt{
+            width: 15%;
+            padding: 4px;
+            border-radius: 6px;
+            border: none;
+            background-color: #205ac7;
+            margin-left: auto;
+            color: #fff;
+            text-transform: uppercase;
+        }
+    
+    }   
+    &-card-1{
+
+        background-color:#121242b0;
+        margin: -31px auto;
+        padding: 15px;
+        width: 85%;
+        border-radius: 15px;
+        font-family: 'Nunito';
+        color: #e9e8e8;
+        .HEidng{
+            color: #e9e8e8;
+            font-family: 'Montserrat';
+            font-weight: 1000;
+            
+        }
+    } 
+}
+
+}
+
+
+.line{
+    height: 5px;
+    position: relative;
+    background-color: #a3a1a1;
+    top: 273px;
+    width: 25%;
+    border-radius: 10px;
+    margin: 5px auto;
+  
+  }
+
+@keyframes bounce {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(-15px);
+  }
+}

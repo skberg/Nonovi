@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+body {
+  background-color: #7777;
+}
+
+.info {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  grid-gap: 25px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.info__Card {
+  margin: auto;
+  margin-top: 65px;
+  background-color: #d6d5d5;
+  padding: 15px;
+  border-radius: 10px;
+  height: 1000px;
+  background-image: url(../../BG-ipad/Path.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-position-y: top;
+}
+
+.info__Card__heding {
+  border-bottom: 2px solid #121242b0;
+  font-family: 'Montserrat';
+}
+
+.info__Card__span {
+  font-family: 'Nunito';
+  font-size: 1em;
+}
+
+.info__Card__Text {
+  font-style: bold;
+  font-family: 'Montserrat';
+}
+
+.info__Card__list {
+  padding: 15px;
+  list-style-type: none;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+  margin: auto;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 200px;
+}
+
+.info__Card__list a {
+  color: #121242b0;
+  display: inline;
+  text-decoration: none;
+}
+
+.info__Card__list-item {
+  background-color: #7e7ea3;
+  justify-items: center;
+  padding: 25px;
+  margin: auto;
+  min-width: 120px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-family: 'Nunito';
+}
+
+.info__Card__SosialLink {
+  position: relative;
+  top: 180px;
+  display: inline;
+}
+
+.info__Card__SosialLink-name {
+  font-family: 'Montserrat';
+  color: #121242b0;
+  display: inline;
+  margin-right: 25px;
+}
+
+.info__Card__SosialLink a {
+  color: #121242b0;
+  display: inline;
+}
+
+#ButtonArrow {
+  position: relative;
+  left: 690px;
+  top: 269px;
+  right: 0;
+  font-size: 25px;
+  color: orangered;
+  animation: bounce 1s infinite alternate;
+  -webkit-animation: bounce 1s infinite alternate;
+}
+
+.ButtonOnorOF {
+  margin: auto;
+  text-align: center;
+  position: relative;
+  left: 640px;
+  top: 259px;
+  height: 55px;
+  background-color: black;
+  border: black;
+  width: 20px;
+  border-radius: 3px 3px;
+}
+
+.holderframe {
+  max-width: 600px;
+  margin: auto;
+}
+
+.fram {
+  background-color: black;
+  border: 25px solid black;
+  width: 600px;
+  height: 1000px;
+  border-radius: 25px;
+  margin: 5px auto;
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.479);
+          box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.479);
+  overflow: auto;
+}
+
+.Display {
+  background-image: url(../../BG-ipad/IMG_1689.jpeg);
+  background-origin: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.Girde {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  padding: 20px;
+}
+
+.Girde-item {
+  width: 70px;
+  margin: 25px auto;
+  border-radius: 15px;
+}
+
+.hilderBUT {
+  background-color: #ffffff5e;
+  position: relative;
+  bottom: 15px;
+  top: 445px;
+  width: 92%;
+  margin: 0px auto;
+  padding: 20px;
+  padding-bottom: -25px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.line {
+  height: 5px;
+  position: relative;
+  background-color: white;
+  top: 445px;
+  width: 25%;
+  border-radius: 10px;
+  margin: 5px auto;
+}
+
+.button {
+  display: -ms-grid;
+  display: grid;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: -15px;
+  width: 12%;
+  font-family: -apple-system;
+  color: #000;
+  text-decoration: none;
+  border-radius: 14px;
+}
+
+.bt-link {
+  text-decoration: none;
+}
+
+.bt-text {
+  padding-top: 10px;
+  margin-bottom: -10px;
+  font-family: -apple-system;
+  color: #fff;
+}
+
+@keyframes bounce {
+  from {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  to {
+    -webkit-transform: translateX(-15px);
+            transform: translateX(-15px);
+  }
+}
+
+@-webkit-keyframes bounce {
+  from {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  to {
+    -webkit-transform: translateX(-15px);
+            transform: translateX(-15px);
+  }
+}
+/*# sourceMappingURL=Ipad.css.map */
