@@ -19,3 +19,7 @@ Under you will find some of the tech used in this project
 
 
 The thought behind this task was to generate an iPad looking devise that works and contained a web-based app inside of this iPad.
+
+# URL
+
+https://www.sktech.no/Nonovi/ 
